@@ -7,7 +7,6 @@ import {
   Wrapper,
 } from "./styles";
 import { SightingInfoType } from "../../types/sightingInfo";
-import { iconLabels } from "../../data/mapData";
 
 type InfoPopupProps = {
   sighting: SightingInfoType;
@@ -26,7 +25,7 @@ export const InfoPopup = ({ sighting }: InfoPopupProps) => {
               {`Date: ${sighting.date}`}
             </Typography>
             <Typography variant={"body2"} gutterBottom>
-              {`Type: ${iconLabels[sighting.type]}`}
+              {`Type: ${sighting.type}`}
             </Typography>
           </ContentHeader>
           <Divider sx={{ margin: "16px 0" }} />

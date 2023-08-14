@@ -5,7 +5,7 @@ export const sightingData: SightingInfoType[] = [
     id: "1",
     date: "c. 1450 BC",
     name: "Thutmose III Jebel Barkal Stele",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Egypt",
       coordinates: "26, 30",
@@ -24,7 +24,7 @@ export const sightingData: SightingInfoType[] = [
     id: "2",
     date: "1566-8-7",
     name: "1566 celestial phenomenon over Basel",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Switzerland; Basel, Basel",
       coordinates: "47.55, 7.566667",
@@ -36,7 +36,7 @@ export const sightingData: SightingInfoType[] = [
     id: "3",
     date: "1609-9-22",
     name: "Gwanghaegun period UFO Turmoil",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Joseon (Korea); Gangwon Province",
       coordinates: "37.750000,128.250000",
@@ -48,7 +48,7 @@ export const sightingData: SightingInfoType[] = [
     id: "4",
     date: "1803-2-22 or 1803-3-24",
     name: "Utsuro-bune at Haratono-hama",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "Japan; Hitachi Province",
       coordinates: "36.233333, 140.283333",
@@ -60,7 +60,7 @@ export const sightingData: SightingInfoType[] = [
     id: "5",
     date: "1883-8-12",
     name: "Bonilla observation",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Mexico; Zacatecas Observatory, Zacatecas",
       coordinates: "23.3, -102.7",
@@ -72,7 +72,7 @@ export const sightingData: SightingInfoType[] = [
     id: "6",
     date: "1896-11-17 to 1897-4-23",
     name: "Mystery airships",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States",
       coordinates: "37, -120",
@@ -84,7 +84,7 @@ export const sightingData: SightingInfoType[] = [
     id: "7",
     date: "1897-4-17",
     name: "Aurora, Texas, UFO incident",
-    type: "crash",
+    type: "Crash",
     location: {
       name: "United States; Aurora, Texas",
       coordinates: "33.055833, -97.509722",
@@ -96,7 +96,7 @@ export const sightingData: SightingInfoType[] = [
     id: "8",
     date: "1907",
     name: "Mihal Grameno UFO",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Ottoman Empire; Albania",
       coordinates: "41, 20",
@@ -108,7 +108,7 @@ export const sightingData: SightingInfoType[] = [
     id: "9",
     date: "1909",
     name: "New Zealand airship sightings",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "New Zealand; Otago",
       coordinates: "-45.236131, 169.632071",
@@ -120,7 +120,7 @@ export const sightingData: SightingInfoType[] = [
     id: "10",
     date: "1917-8-13, 1917-9-13, 1917-10-13",
     name: "Miracle of the Sun",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Portugal; Fátima, Santarém District",
       coordinates: "39.233333, -8.683333",
@@ -132,7 +132,7 @@ export const sightingData: SightingInfoType[] = [
     id: "11",
     date: "1933-7-8",
     name: "UFOs above Vlore",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Albania; Vlorë",
       coordinates: "40.466667, 19.483333",
@@ -144,7 +144,7 @@ export const sightingData: SightingInfoType[] = [
     id: "12",
     date: "1940 c. 1940",
     name: "Foo fighters",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Over World War II theaters",
       coordinates: "50.349617, 10.309510",
@@ -156,7 +156,7 @@ export const sightingData: SightingInfoType[] = [
     id: "13",
     date: "1941 c. 1941",
     name: "Cape Girardeau UFO legend",
-    type: "crash",
+    type: "Crash",
     location: {
       name: "United States; Cape Girardeau, Missouri",
       coordinates: "37.310833, -89.559722",
@@ -168,7 +168,7 @@ export const sightingData: SightingInfoType[] = [
     id: "14",
     date: "1942-2-24",
     name: "Battle of Los Angeles",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; Los Angeles, California",
       coordinates: "34.05, -118.25",
@@ -180,7 +180,7 @@ export const sightingData: SightingInfoType[] = [
     id: "15",
     date: "1946",
     name: "The Ghost Rockets",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Scandinavia and other parts of Europe",
       coordinates: "66.37070,22.30556",
@@ -192,7 +192,7 @@ export const sightingData: SightingInfoType[] = [
     id: "16",
     date: "1946-5-18",
     name: "Ängelholm UFO memorial",
-    type: "landing",
+    type: "Landing",
     location: {
       name: "Sweden; Ängelholm, Kristianstads County",
       coordinates: "56.25, 12.85",
@@ -204,7 +204,7 @@ export const sightingData: SightingInfoType[] = [
     id: "17",
     date: "1947-6-21",
     name: "Maury Island incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; Puget Sound near Maury Island, Washington",
       coordinates: "47.6, -122.4",
@@ -216,7 +216,7 @@ export const sightingData: SightingInfoType[] = [
     id: "18",
     date: "1947-6-24",
     name: "Kenneth Arnold UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; North of Mount Rainier, Washington",
       coordinates: "46.852827, -121.760441",
@@ -228,7 +228,7 @@ export const sightingData: SightingInfoType[] = [
     id: "19",
     date: "1947 c. 1947",
     name: "1947 flying disc craze",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Washington and other states",
       coordinates: "47, -120",
@@ -240,7 +240,7 @@ export const sightingData: SightingInfoType[] = [
     id: "20",
     date: "1947-7-4",
     name: "Flight 105 UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; En route from Boise, Idaho to Pendleton, Oregon",
       coordinates: "44.7746455,-117.852328",
@@ -252,7 +252,7 @@ export const sightingData: SightingInfoType[] = [
     id: "21",
     date: "1947-7-8",
     name: "The Roswell Incident",
-    type: "crash",
+    type: "Crash",
     location: {
       name: "United States; about 30 mi. north of Roswell, New Mexico",
       coordinates: "33.387222, -104.528056",
@@ -264,7 +264,7 @@ export const sightingData: SightingInfoType[] = [
     id: "22",
     date: "1948 c. 1948",
     name: "The Green Fireballs",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; New Mexico and other parts of the Southwestern United States",
       coordinates: "34, -106",
@@ -276,7 +276,7 @@ export const sightingData: SightingInfoType[] = [
     id: "23",
     date: "1948-1-7",
     name: "Mantell UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Kentucky",
       coordinates: "37.92, -85.96",
@@ -288,7 +288,7 @@ export const sightingData: SightingInfoType[] = [
     id: "24",
     date: "1948-3-25",
     name: "Aztec, New Mexico UFO hoax",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; New Mexico",
       coordinates: "36.822222, -107.992778",
@@ -300,7 +300,7 @@ export const sightingData: SightingInfoType[] = [
     id: "25",
     date: "1948-7-24",
     name: "Chiles-Whitted UFO encounter",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United States; Montgomery, Alabama",
       coordinates: "32.361667, -86.279167",
@@ -312,7 +312,7 @@ export const sightingData: SightingInfoType[] = [
     id: "26",
     date: "1948-10-1",
     name: "Gorman dogfight",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; North Dakota",
       coordinates: "46.873333, -96.827222",
@@ -324,7 +324,7 @@ export const sightingData: SightingInfoType[] = [
     id: "27",
     date: "1950-5-11",
     name: "McMinnville UFO photographs",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; a farm near McMinnville, Oregon",
       coordinates: "45.211667, -123.197222",
@@ -336,7 +336,7 @@ export const sightingData: SightingInfoType[] = [
     id: "28",
     date: "1950-8-15",
     name: "Mariana UFO incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; Great Falls, Montana",
       coordinates: "47.503611, -111.286389",
@@ -348,7 +348,7 @@ export const sightingData: SightingInfoType[] = [
     id: "29",
     date: "1951-8-25",
     name: "Lubbock Lights",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Lubbock, Texas",
       coordinates: "33.585, -101.845",
@@ -360,7 +360,7 @@ export const sightingData: SightingInfoType[] = [
     id: "30",
     date: "1952-7-12 to 1952-7-29",
     name: "1952 Washington, D.C. UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Washington, D.C.",
       coordinates: "38.904722, -77.016389",
@@ -372,7 +372,7 @@ export const sightingData: SightingInfoType[] = [
     id: "31",
     date: "1952-7-14",
     name: "Nash-Fortenberry UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Norfolk, Virginia",
       coordinates: "36.846944, -76.285278",
@@ -384,7 +384,7 @@ export const sightingData: SightingInfoType[] = [
     id: "32",
     date: "1952-9-12",
     name: "The Flatwoods Monster",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United States; Flatwoods, West Virginia",
       coordinates: "38.721389, -80.653056",
@@ -396,7 +396,7 @@ export const sightingData: SightingInfoType[] = [
     id: "33",
     date: "1954-10-27",
     name: "Fiorentina Stadium Mass Sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Italy; Stadio Artemio Franchi in Florence",
       coordinates: "43.780822, 11.282258",
@@ -408,7 +408,7 @@ export const sightingData: SightingInfoType[] = [
     id: "34",
     date: "1955-8-21 to 1955-8-22",
     name: "Kelly–Hopkinsville encounter",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United States; A farmhouse near Hopkinsville, Kentucky",
       coordinates: "36.854722, -87.488889",
@@ -420,7 +420,7 @@ export const sightingData: SightingInfoType[] = [
     id: "35",
     date: "1956-7-24",
     name: "Lakenheath-Bentwaters incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United Kingdom; Suffolk, England",
       coordinates: "52.166667, 1",
@@ -432,7 +432,7 @@ export const sightingData: SightingInfoType[] = [
     id: "36",
     date: "1956-8-13",
     name: "Elizabeth Klarer",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "South Africa; Drakensberg",
       coordinates: "-29.383333, 29.45",
@@ -444,7 +444,7 @@ export const sightingData: SightingInfoType[] = [
     id: "37",
     date: "1957-5-3",
     name: "Gordon Cooper UFO Sightings",
-    type: "landing",
+    type: "Landing",
     location: {
       name: "United States; Edwards Air Force Base, California",
       coordinates: "34.905556, -117.883611",
@@ -456,7 +456,7 @@ export const sightingData: SightingInfoType[] = [
     id: "38",
     date: "1957-5-20",
     name: "Milton Torres 1957 UFO Encounter",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United Kingdom; East Anglia",
       coordinates: "52.5, 1",
@@ -468,7 +468,7 @@ export const sightingData: SightingInfoType[] = [
     id: "39",
     date: "1957-10-15",
     name: "Antônio Vilas-Boas Abduction",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "Brazil; Near São Francisco de Sales, Minas Gerais",
       coordinates: "-19.856944, -49.773889",
@@ -480,7 +480,7 @@ export const sightingData: SightingInfoType[] = [
     id: "40",
     date: "1957-11-2",
     name: "Levelland UFO case",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Levelland, Texas",
       coordinates: "33.587222, -102.378056",
@@ -492,7 +492,7 @@ export const sightingData: SightingInfoType[] = [
     id: "41",
     date: "1957-11-4",
     name: "Kirtland AFB UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Albuquerque, New Mexico",
       coordinates: "35.110833, -106.61",
@@ -504,7 +504,7 @@ export const sightingData: SightingInfoType[] = [
     id: "42",
     date: "1961-9-19",
     name: "Betty and Barney Hill abduction",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "United States; South of Lancaster on Route 3, New Hampshire",
       coordinates: "44.488889, -71.569167",
@@ -516,7 +516,7 @@ export const sightingData: SightingInfoType[] = [
     id: "43",
     date: "1963",
     name: "Kallamishtez UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Albania; Kurvelesh",
       coordinates: "40.236667, 19.866944",
@@ -528,7 +528,7 @@ export const sightingData: SightingInfoType[] = [
     id: "44",
     date: "1964-4-24",
     name: "Lonnie Zamora incident",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United States; Socorro, New Mexico",
       coordinates: "34.061667, -106.899444",
@@ -540,7 +540,7 @@ export const sightingData: SightingInfoType[] = [
     id: "45",
     date: "1964-9-18 until 9-24",
     name: "Dwikora Operation UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Surabaya, Indonesia",
       coordinates: "-7.245833, 112.737778",
@@ -552,7 +552,7 @@ export const sightingData: SightingInfoType[] = [
     id: "46",
     date: "1965-6-4",
     name: "Project Gemini UFO",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Low Earth orbit; Above Hawaii",
       coordinates: "21.5, -158",
@@ -564,7 +564,7 @@ export const sightingData: SightingInfoType[] = [
     id: "47",
     date: "1965-9-3",
     name: "The Incident at Exeter",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Exeter, New Hampshire",
       coordinates: "42.981389, -70.947778",
@@ -576,7 +576,7 @@ export const sightingData: SightingInfoType[] = [
     id: "48",
     date: "1965-7-1",
     name: "The Valensole UFO incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "France; Valensole, Provence-Alpes-Côte d'Azur",
       coordinates: "44, 6",
@@ -588,7 +588,7 @@ export const sightingData: SightingInfoType[] = [
     id: "49",
     date: "1965-12-9",
     name: "Kecksburg UFO incident",
-    type: "landing",
+    type: "Landing",
     location: {
       name: "United States; Kecksburg, Pennsylvania",
       coordinates: "40.184722, -79.461389",
@@ -600,7 +600,7 @@ export const sightingData: SightingInfoType[] = [
     id: "50",
     date: "1966-4-6",
     name: "Westall UFO",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Australia; Clayton South, Victoria",
       coordinates: "-37.947, 145.123",
@@ -612,7 +612,7 @@ export const sightingData: SightingInfoType[] = [
     id: "51",
     date: "1967-8-29",
     name: "Close encounter of Cussac",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "France; near Cussac, Auvergne",
       coordinates: "44.9847, 2.9333",
@@ -624,7 +624,7 @@ export const sightingData: SightingInfoType[] = [
     id: "52",
     date: "1967-10-4",
     name: "Shag Harbour UFO incident",
-    type: "crash",
+    type: "Crash",
     location: {
       name: "Canada; Gulf of Maine near Shag Harbour, Nova Scotia",
       coordinates: "43.494167, -65.718056",
@@ -636,7 +636,7 @@ export const sightingData: SightingInfoType[] = [
     id: "53",
     date: "1969-1-6",
     name: "Jimmy Carter UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Leary, Georgia",
       coordinates: "31.485556, -84.513333",
@@ -648,7 +648,7 @@ export const sightingData: SightingInfoType[] = [
     id: "54",
     date: "1969-4-12",
     name: "Finnish Air Force sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Finland; Pori",
       coordinates: "61.483333, 21.8",
@@ -660,7 +660,7 @@ export const sightingData: SightingInfoType[] = [
     id: "55",
     date: "1969-9-1",
     name: "Labour Day 1969 UFO Incident",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "United States; Berkshire County, Massachusetts",
       coordinates: "42.37, -73.21",
@@ -672,7 +672,7 @@ export const sightingData: SightingInfoType[] = [
     id: "56",
     date: "1973-10-11",
     name: "Pascagoula Abduction",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "United States; Pascagoula, Mississippi",
       coordinates: "30.363611, -88.541944",
@@ -684,7 +684,7 @@ export const sightingData: SightingInfoType[] = [
     id: "57",
     date: "1974-1-23",
     name: "Berwyn Mountain UFO incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United Kingdom; Llandrillo, Merionethshire, North Wales",
       coordinates: "52.922, -3.436",
@@ -696,7 +696,7 @@ export const sightingData: SightingInfoType[] = [
     id: "58",
     date: "1974-8-23",
     name: "John Lennon UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; New York City, New York",
       coordinates: "40.712778, -74.006111",
@@ -708,7 +708,7 @@ export const sightingData: SightingInfoType[] = [
     id: "59",
     date: "1975-11-05",
     name: "Travis Walton",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "United States; Near Turkey Springs in Apache-Sitgreaves National Forest, Arizona",
       coordinates: "34.3020411,-110.6455564",
@@ -720,7 +720,7 @@ export const sightingData: SightingInfoType[] = [
     id: "60",
     date: "1976-9-17",
     name: "1976 Tehran UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Iran; Tehran, Tehran province",
       coordinates: "35.689167, 51.388889",
@@ -732,7 +732,7 @@ export const sightingData: SightingInfoType[] = [
     id: "61",
     date: "1977-9-20",
     name: "Petrozavodsk phenomenon",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Soviet Union, Finland, Lithuania, and Denmark",
       coordinates: "61.783333, 34.333333",
@@ -744,7 +744,7 @@ export const sightingData: SightingInfoType[] = [
     id: "62",
     date: "1978-5-10",
     name: "Emilcin Abduction",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "Poland; Emilcin, Lublin Voivodeship",
       coordinates: "51.136667, 22.039167",
@@ -756,7 +756,7 @@ export const sightingData: SightingInfoType[] = [
     id: "63",
     date: "1978-10-21",
     name: "Valentich disappearance",
-    type: "disappearance",
+    type: "Disappearance",
     location: {
       name: "Australia; Victoria",
       coordinates: "-37.975833, 145.102222",
@@ -768,7 +768,7 @@ export const sightingData: SightingInfoType[] = [
     id: "64",
     date: "1978-12-6",
     name: "Zanfretta UFO Incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Italy; Torriglia, Genoa",
       coordinates: "44.516667, 9.166667",
@@ -780,7 +780,7 @@ export const sightingData: SightingInfoType[] = [
     id: "65",
     date: "1979-11-11",
     name: "Manises UFO incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Spain; Valencia, Valencian Community",
       coordinates: "39.47, -0.376389",
@@ -792,7 +792,7 @@ export const sightingData: SightingInfoType[] = [
     id: "66",
     date: "1980-4-11",
     name: "Arequipa UFO incident",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "Peru; Arequipa Region",
       coordinates: "-15.86, -72.25",
@@ -804,7 +804,7 @@ export const sightingData: SightingInfoType[] = [
     id: "67",
     date: "1980-12-24 to 1980-12-24",
     name: "Rendlesham Forest incident",
-    type: "close-encounter",
+    type: "Close encounter",
     location: {
       name: "United Kingdom; Rendlesham Forest, Suffolk, England",
       coordinates: "52.083889, 1.432778",
@@ -816,7 +816,7 @@ export const sightingData: SightingInfoType[] = [
     id: "68",
     date: "1981-1-8",
     name: "Trans-en-Provence case",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "France; Trans-en-Provence, Provence-Alpes-Côte d'Azur",
       coordinates: "43.5042, 6.4867",
@@ -828,7 +828,7 @@ export const sightingData: SightingInfoType[] = [
     id: "69",
     date: "1984",
     name: "Hudson Valley Sightings",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Hudson Valley, New York",
       coordinates: "41.458611, -73.959722",
@@ -840,7 +840,7 @@ export const sightingData: SightingInfoType[] = [
     id: "70",
     date: "1986-5-19",
     name: 'Night of the UFOs" in Brazil',
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Brazil; São Paulo, Rio de Janeiro, Minas Gerais and Goiás",
       coordinates: "-19.816667, -43.95",
@@ -852,7 +852,7 @@ export const sightingData: SightingInfoType[] = [
     id: "71",
     date: "1986-11-17",
     name: "Japan Air Lines Cargo Flight 1628 incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; Alaska",
       coordinates: "63.394253, -157.734666",
@@ -864,7 +864,7 @@ export const sightingData: SightingInfoType[] = [
     id: "72",
     date: "1987-12-1",
     name: "Ilkley Moor UFO incident",
-    type: "abduction",
+    type: "Abduction",
     location: {
       name: "United Kingdom; Ilkley Moor",
       coordinates: "53.915, -1.815",
@@ -876,7 +876,7 @@ export const sightingData: SightingInfoType[] = [
     id: "73",
     date: "1990-8-1",
     name: "Shkoder UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Albania; Shkodër",
       coordinates: "42.068056, 19.511944",
@@ -888,7 +888,7 @@ export const sightingData: SightingInfoType[] = [
     id: "74",
     date: "1993-7-12",
     name: "Cerrik UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Albania; Cërrik, Elbasan",
       coordinates: "41.111111, 20.080556",
@@ -900,7 +900,7 @@ export const sightingData: SightingInfoType[] = [
     id: "75",
     date: "1994-9-16",
     name: "Ariel School UFO incident",
-    type: "landing",
+    type: "Landing",
     location: {
       name: "Zimbabwe; Ruwa",
       coordinates: "-17.889722, 31.244722",
@@ -912,7 +912,7 @@ export const sightingData: SightingInfoType[] = [
     id: "76",
     date: "1996-01-20",
     name: "Varginha UFO incident",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Brazil; Varginha, Minas Gerais",
       coordinates: "-21.551667, -45.43",
@@ -924,7 +924,7 @@ export const sightingData: SightingInfoType[] = [
     id: "77",
     date: "1997-3-13",
     name: "Phoenix Lights",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Phoenix, Arizona",
       coordinates: "33.448333, -112.073889",
@@ -936,7 +936,7 @@ export const sightingData: SightingInfoType[] = [
     id: "78",
     date: "2000-10-5",
     name: "Bonsall UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United Kingdom; Bonsall, Derbyshire",
       coordinates: "53.121, -1.584",
@@ -948,7 +948,7 @@ export const sightingData: SightingInfoType[] = [
     id: "79",
     date: "2004",
     name: "Tinley Park Lights",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Illinois",
       coordinates: "41.573889, -87.803889",
@@ -960,7 +960,7 @@ export const sightingData: SightingInfoType[] = [
     id: "80",
     date: "2004-3-5",
     name: "2004 Mexican UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Mexico; Campeche",
       coordinates: "20, -94",
@@ -972,7 +972,7 @@ export const sightingData: SightingInfoType[] = [
     id: "81",
     date: "2004-11-14",
     name: "USS Nimitz UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Off the coast of San Diego, California",
       coordinates: "31.378509, -117.083602",
@@ -984,7 +984,7 @@ export const sightingData: SightingInfoType[] = [
     id: "82",
     date: "2006-5-4",
     name: "Roskovec UFO Landing",
-    type: "landing",
+    type: "Landing",
     location: {
       name: "Albania; Roskovec",
       coordinates: "40.73799,19.6982717",
@@ -996,7 +996,7 @@ export const sightingData: SightingInfoType[] = [
     id: "83",
     date: "2006-11-7",
     name: "2006 O'Hare International Airport UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; Chicago, Illinois",
       coordinates: "41.881944, -87.627778",
@@ -1008,7 +1008,7 @@ export const sightingData: SightingInfoType[] = [
     id: "84",
     date: "2007-4-23",
     name: "2007 Alderney UFO sighting",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Bailiwick of Guernsey; Alderney",
       coordinates: "49.7, -2.366667",
@@ -1020,7 +1020,7 @@ export const sightingData: SightingInfoType[] = [
     id: "85",
     date: "2007-11-28 to 2011-12-13",
     name: "Dudley Dorito",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United Kingdom; West Midlands conurbation",
       coordinates: "52.511794, -1.975307",
@@ -1032,7 +1032,7 @@ export const sightingData: SightingInfoType[] = [
     id: "86",
     date: "2008-6-20",
     name: "Wales UFO sightings",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United Kingdom; Various cities, Wales",
       coordinates: "52.3, -3.6",
@@ -1044,7 +1044,7 @@ export const sightingData: SightingInfoType[] = [
     id: "87",
     date: "2009-1-5",
     name: "Morristown UFO hoax",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States; Morristown, New Jersey",
       coordinates: "40.796562, -74.477318",
@@ -1056,7 +1056,7 @@ export const sightingData: SightingInfoType[] = [
     id: "88",
     date: "2010-1-25",
     name: "Harbour Mille incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Canada; Harbour Mille, Newfoundland and Labrador",
       coordinates: "47.586, -54.874",
@@ -1068,7 +1068,7 @@ export const sightingData: SightingInfoType[] = [
     id: "89",
     date: "2010-8-7",
     name: "Tirana UFO incident",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Albania; Tirana",
       coordinates: "41.328889, 19.817778",
@@ -1080,7 +1080,7 @@ export const sightingData: SightingInfoType[] = [
     id: "90",
     date: "2014-6-2 to 2015-3-10",
     name: "USS Theodore Roosevelt UFO incidents",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "United States; East Coast of the United States",
       coordinates: "30.734299, -79.425793",
@@ -1092,7 +1092,7 @@ export const sightingData: SightingInfoType[] = [
     id: "91",
     date: "2023-1-28 to 2023-2-13",
     name: "List of high-altitude object events in 2023",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "United States, Canada, Colombia, Costa Rica, and Venezuela",
       coordinates: "33.689060,-78.886696",
@@ -1104,7 +1104,7 @@ export const sightingData: SightingInfoType[] = [
     id: "92",
     date: "218 BC",
     name: "Ships in the sky",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Roman Republic, Rome, Italia",
       coordinates: "41.893333, 12.502778",
@@ -1115,7 +1115,7 @@ export const sightingData: SightingInfoType[] = [
     id: "93",
     date: "76 BC",
     name: "Spark from a falling star",
-    type: "sighting",
+    type: "Sighting",
     location: {
       name: "Roman Republic, Asia",
       coordinates: "38.504532, 27.924071",
@@ -1126,7 +1126,7 @@ export const sightingData: SightingInfoType[] = [
     id: "94",
     date: "7 BC",
     name: "Flame-like wine-jars from the sky",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Roman Republic, Phrygia, Asia",
       coordinates: "39, 31",
@@ -1137,7 +1137,7 @@ export const sightingData: SightingInfoType[] = [
     id: "95",
     date: "AD 65",
     name: "Sky army",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Roman Empire, Judaea",
       coordinates: "32.5, 34.9",
@@ -1148,7 +1148,7 @@ export const sightingData: SightingInfoType[] = [
     id: "96",
     date: "AD 196",
     name: "Angel hair",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Roman Empire, Rome, Italia",
       coordinates: "41.893333, 12.462778",
@@ -1159,7 +1159,7 @@ export const sightingData: SightingInfoType[] = [
     id: "97",
     date: "AD 740",
     name: "Air ship of Clonmacnoise",
-    type: "undefined",
+    type: "Undefined report",
     location: {
       name: "Ireland, Teltown in County Meath, and Clonmacnoise in County Offaly",
       coordinates: "53.323889, -7.991111",

@@ -25,17 +25,17 @@ export const Pin = ({ sighting }: PinProps) => {
 
   const getIcon = () => {
     switch (sighting.type) {
-      case "sighting":
+      case "Sighting":
         return <Visibility sx={{ color: "white" }} />;
-      case "abduction":
+      case "Abduction":
         return <SettingsAccessibility sx={{ color: "white" }} />;
-      case "close-encounter":
+      case "Close encounter":
         return <SupervisorAccount sx={{ color: "white" }} />;
-      case "disappearance":
+      case "Disappearance":
         return <PersonRemove sx={{ color: "white" }} />;
-      case "crash":
+      case "Crash":
         return <CrisisAlert sx={{ color: "white" }} />;
-      case "landing":
+      case "Landing":
         return <VerticalAlignBottom sx={{ color: "white" }} />;
       default:
         return <Report sx={{ color: "white" }} />;

@@ -16,13 +16,3 @@ export const mapSettings = {
     zoom: 3,
   },
 };
-
-export const iconLabels = {
-  sighting: "Sighting",
-  abduction: "Abduction",
-  "close-encounter": "Close Encounter",
-  disappearance: "Disappearance",
-  crash: "Crash",
-  landing: "Landing",
-  undefined: "Undefined",
-};
