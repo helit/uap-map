@@ -802,9 +802,9 @@ export const sightingData: SightingInfoType[] = [
   },
   {
     id: "67",
-    date: "1980-12-24 to 1980-12-24",
+    date: "1980-12-24",
     name: "Rendlesham Forest incident",
-    type: "Close encounter",
+    type: "Landing",
     location: {
       name: "United Kingdom; Rendlesham Forest, Suffolk, England",
       coordinates: "52.083889, 1.432778",
