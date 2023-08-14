@@ -15,9 +15,9 @@ Also, I threw this together pretty quickly so feedback and suggestions on improv
 
 ### Map Screenshots
 
-![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-01.png)
+![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-screenshot-01.png)
 
-![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-02.png)
+![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-screenshot-02.png)
 
 ## Why?
 
