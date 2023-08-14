@@ -2,7 +2,7 @@ export type SightingInfoType = {
   id: string;
   date: string;
   name: string;
-  type?: string;
+  type: string;
   location: SightingLocationType;
   description: string;
   url?: string;
