@@ -13,6 +13,12 @@ I'm of course open to pull requests and requests in general to add reports and s
 
 Also, I threw this together pretty quickly so feedback and suggestions on improvements and updates to the map is of course much welcomed.
 
+### Map Screenshots
+
+![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-01.png)
+
+![](https://raw.githubusercontent.com/helit/uap-map/main/src/assets/images/map-02.png)
+
 ## Why?
 
 I made this site since I got a renewed interest in UFO/UAP because of the resent US congress hearings and whistleblowers coming forward.
