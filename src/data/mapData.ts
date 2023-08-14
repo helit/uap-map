@@ -17,7 +17,7 @@ export const mapSettings = {
   },
 };
 
-export const IconLabels = {
+export const iconLabels = {
   sighting: "Sighting",
   abduction: "Abduction",
   "close-encounter": "Close Encounter",
