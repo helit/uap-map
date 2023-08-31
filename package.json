@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "add-domain": "echo \"uap-map.henlit.se\" > dist/CNAME",
     "predeploy": "npm run build && npm run add-domain",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
