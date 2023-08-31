@@ -1,7 +1,8 @@
-import { Modal, Paper, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import "./App.css";
 
 import MapContainer from "./components/MapContainer";
+import { Modal } from "./components/Modal";
 
 const App = () => {
   return (
@@ -20,11 +21,7 @@ const App = () => {
         UFO/UAP Report & Sighting map
       </Typography>
       <MapContainer />
-      {/* <Modal open={true} sx={{ width: "50%", height: "80%", margin: "auto" }}>
-        <Paper sx={{ height: "100%" }}>
-          <div>Test</div>
-        </Paper>
-      </Modal> */}
+      <Modal />
     </div>
   );
 };

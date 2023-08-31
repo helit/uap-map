@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { SightingInfoType } from "../../types/sightingInfo";
 import { Marker, Wrapper } from "./styles";
 import {
@@ -11,6 +11,7 @@ import {
   Visibility,
 } from "@mui/icons-material";
 import { InfoPopup } from "../InfoPopup";
+import { useModal } from "../Modal/hooks/useModal";
 
 type PinProps = {
   sighting: SightingInfoType;
@@ -19,8 +20,11 @@ type PinProps = {
 export const Pin = ({ sighting }: PinProps) => {
   const [showPopup, setShowPopup] = useState(false);
 
+  const { setModal } = useModal();
+
   const togglePopup = () => {
-    setShowPopup(!showPopup);
+    console.log("togglePopup");
+    setModal(<h1>{sighting.name}</h1>);
   };
 
   const getIcon = () => {
