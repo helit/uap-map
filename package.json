@@ -6,10 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "add-domain": "echo \"uap-map.henlit.se\" > dist/CNAME",
-    "predeploy": "npm run build && npm run add-domain",
-    "deploy": "main -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
