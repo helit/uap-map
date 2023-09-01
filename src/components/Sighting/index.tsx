@@ -1,6 +1,6 @@
 import { Marker as MapboxMarker } from 'react-map-gl';
 import { SightingInfoType } from '../../types/sightingInfo';
-import { Pin } from '../Pin';
+import { MapMarker } from '../MapMarker';
 
 type SightingProps = {
     sighting: SightingInfoType;
@@ -15,7 +15,7 @@ export const Sighting = ({ sighting }: SightingProps) => {
             longitude={Number(coordinates[1])}
             anchor="center"
         >
-            <Pin sighting={sighting} />
+            <MapMarker sighting={sighting} />
         </MapboxMarker>
     );
 };

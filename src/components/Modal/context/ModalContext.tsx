@@ -1,5 +1,5 @@
-// ModalContext.tsx
 import { createContext, useContext, useState, ReactNode } from 'react';
+import Modal from '..';
 
 interface ModalContextProps {
     isModalOpen: boolean;
@@ -43,12 +43,7 @@ export const ModalProvider = ({ children }: ModalProviderProps) => {
             value={{ isModalOpen, showModal, hideModal, modalContent }}
         >
             {children}
-            {isModalOpen && modalContent && (
-                <div className="modal">
-                    {modalContent}
-                    <button onClick={hideModal}>Close Modal</button>
-                </div>
-            )}
+            <Modal />
         </ModalContext.Provider>
     );
 };

@@ -1,5 +1,5 @@
 import { SightingInfoType } from '../../types/sightingInfo';
-import { Marker, Wrapper } from './styles';
+import { BodyWrapper, Inline, Marker, Wrapper } from './styles';
 import {
     CrisisAlert,
     PersonRemove,
@@ -10,23 +10,43 @@ import {
     Visibility,
 } from '@mui/icons-material';
 import { useModal } from '../Modal/context/ModalContext';
+import { Divider, Typography } from '@mui/material';
 
-type PinProps = {
+type MapMarkerProps = {
     sighting: SightingInfoType;
 };
 
-export const Pin = ({ sighting }: PinProps) => {
+export const MapMarker = ({ sighting }: MapMarkerProps) => {
     const { showModal } = useModal();
 
-    const togglePopup = () => {
+    const openModal = () => {
         showModal(getModalContent());
     };
 
     const getModalContent = () => {
         return (
             <div>
-                <h1>{sighting.name}</h1>
-                <p>{sighting.description}</p>
+                <Typography variant="h4" component="h2" mb={3}>
+                    {sighting.name}
+                </Typography>
+                <Inline>
+                    <Typography variant="subtitle1" fontWeight={'bold'}>
+                        Date:
+                    </Typography>
+                    <Typography variant="subtitle1">{sighting.date}</Typography>
+                </Inline>
+                <Inline>
+                    <Typography variant="subtitle1" fontWeight={'bold'}>
+                        Incident type:
+                    </Typography>
+                    <Typography variant="subtitle1">{sighting.type}</Typography>
+                </Inline>
+                <Divider sx={{ margin: '24px 0' }} />
+                <BodyWrapper>
+                    <Typography variant="body1" mb={3}>
+                        {sighting.description}
+                    </Typography>
+                </BodyWrapper>
             </div>
         );
     };
@@ -51,7 +71,7 @@ export const Pin = ({ sighting }: PinProps) => {
     };
 
     return (
-        <Wrapper onClick={togglePopup}>
+        <Wrapper onClick={openModal}>
             <Marker>{getIcon()}</Marker>
         </Wrapper>
     );

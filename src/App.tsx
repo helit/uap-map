@@ -4,11 +4,12 @@ import './App.css';
 import MapContainer from './components/MapContainer';
 import { Modal } from './components/Modal';
 import { ModalProvider } from './components/Modal/context/ModalContext';
+import { ContentWrapper } from './style';
 
 const App = () => {
     return (
         <ModalProvider>
-            <div style={{ display: 'flex', position: 'relative' }}>
+            <ContentWrapper>
                 <Typography
                     variant={'h5'}
                     sx={{
@@ -22,10 +23,9 @@ const App = () => {
                 >
                     UFO/UAP Report & Sighting map
                 </Typography>
-                <MapContainer />
-
                 <Modal />
-            </div>
+                <MapContainer />
+            </ContentWrapper>
         </ModalProvider>
     );
 };
