@@ -9,7 +9,7 @@ const App = () => {
     return (
         <ModalProvider>
             <ContentWrapper>
-                <PageTitle component="h1" variant="h5">
+                <PageTitle variant="h5">
                     UFO/UAP Report & Sighting map
                 </PageTitle>
                 <Modal />
