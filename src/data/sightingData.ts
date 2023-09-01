@@ -187,6 +187,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Thousands of UFO sightings were reported over Europe. Due in part to concerns that foreign governments were testing recovered experimental German technology, the Swedish and Greek governments investigated the reports separately.',
+        url: 'https://en.wikipedia.org/wiki/Ghost_rockets',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Ghostrocket_7-09-1946.jpg',
     },
     {
         id: '16',
@@ -259,6 +261,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Walter Haut, a United States Army Air Forces spokesperson, issued a press release announcing the "capture" of a "flying saucer".  Hours later, the Army announced that the find was a crashed weather balloon.  In 1978, the case regained attention after Jesse Marcel, the Army Officer who recovered the wreckage, told UFO researchers that the weather balloon explanation was a cover story. In 1994, the Air Force attributed the incident to the previously classified Project Mogul.',
+        url: 'https://en.wikipedia.org/wiki/Roswell_incident',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/RoswellDailyRecordJuly8%2C1947.jpg',
     },
     {
         id: '22',
@@ -811,6 +815,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'United States Air Force personnel reported various unusual observations at RAF Woodbridge and RAF Bentwaters, two American air bases located in England. Their reports included lights in the sky, a metallic triangular object in the forest, multi-colored lights moving through the forest, and higher levels of radiation.',
+        url: 'https://en.wikipedia.org/wiki/Rendlesham_Forest_incident',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RAF_Woodbridge_East_Gate.jpg/480px-RAF_Woodbridge_East_Gate.jpg',
     },
     {
         id: '68',
@@ -979,6 +985,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Several pilots from VFA-41 squadron flying Super Hornets from the USS Nimitz, were directed by the USS Princeton to intercept one of several unidentified flying objects detected by radar. The pilots reported a visual encounter and recorded an infrared video. The Navy has verified that the video was taken by Navy personnel and has stated that it has not yet identified the nature of the sightings which they classify as unexplained aerial phenomena.',
+        url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+        video: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Go_Fast_Official_USG_Footage_of_UAP_for_Public_Release.webm',
     },
     {
         id: '82',
@@ -1087,6 +1095,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Navy pilots from the Theodore Roosevelt began to notice unexplained objects on their radar after an equipment upgrade. Some pilots were unable to see the objects. Others captured video footage, later released to the public. The pilots reported these incidents to the then-obscure Advanced Aerospace Threat Identification Program resulting in new guidelines regarding unexplained aerial phenomena sightings.',
+        url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+        video: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Gimbal_The_First_Official_UAP_Footage_from_the_USG_for_Public_Release.webm',
     },
     {
         id: '91',

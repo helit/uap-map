@@ -6,6 +6,8 @@ export type SightingInfoType = {
     location: SightingLocationType;
     description: string;
     url?: string;
+    image?: string;
+    video?: string;
 };
 
 export type SightingLocationType = {

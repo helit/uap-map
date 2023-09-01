@@ -23,11 +23,9 @@ export const ModalWrapper = styled.div`
 export const ModalContent = styled(Paper)`
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    width: 900px;
+    width: 1024px;
     min-height: 600px;
-    overflow: scroll-y;
-    overflow-y: auto;
+    max-height: 800px;
 `;
 
 export const ModalHeader = styled.div`
@@ -39,11 +37,12 @@ export const ModalHeader = styled.div`
 export const ModalBody = styled.div`
     flex: 1;
     text-align: left;
-    padding: 0 42px;
+    padding: 0 42px 24px;
+    overflow-y: auto;
 `;
 
 export const ModalActions = styled.div`
     display: flex;
     justify-content: flex-end;
-    padding: 0 16px 16px;
+    padding: 16px;
 `;
