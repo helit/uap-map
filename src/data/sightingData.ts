@@ -1,4 +1,4 @@
-import { SightingInfoType } from '../types/sightingInfo'
+import { SightingInfoType } from '../types/sightingInfo';
 
 export const sightingData: SightingInfoType[] = [
     {
@@ -1166,4 +1166,4 @@ export const sightingData: SightingInfoType[] = [
         },
         description: `Several sets of Irish annals, those of Ulster, Tigernach, Clonmacnoise, and the Four Masters, all have entries to the effect that "ships with their crews were seen in the air".`,
     },
-]
+];

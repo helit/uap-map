@@ -1,8 +1,8 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
     position: relative;
-`
+`;
 
 export const Marker = styled.div`
     display: flex;
@@ -17,4 +17,4 @@ export const Marker = styled.div`
     &:hover {
         cursor: pointer;
     }
-`
+`;

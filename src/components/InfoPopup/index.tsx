@@ -1,16 +1,16 @@
-import { Divider, Paper, Typography } from '@mui/material'
+import { Divider, Paper, Typography } from '@mui/material';
 import {
     ContentBody,
     ContentFooter,
     ContentHeader,
     ContentWrapper,
     Wrapper,
-} from './styles'
-import { SightingInfoType } from '../../types/sightingInfo'
+} from './styles';
+import { SightingInfoType } from '../../types/sightingInfo';
 
 type InfoPopupProps = {
-    sighting: SightingInfoType
-}
+    sighting: SightingInfoType;
+};
 
 export const InfoPopup = ({ sighting }: InfoPopupProps) => {
     return (
@@ -44,5 +44,5 @@ export const InfoPopup = ({ sighting }: InfoPopupProps) => {
                 </Paper>
             </ContentWrapper>
         </Wrapper>
-    )
-}
+    );
+};

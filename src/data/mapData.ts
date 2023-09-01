@@ -7,7 +7,7 @@ export const mapStyles = {
     satelliteStreets: 'mapbox://styles/mapbox/satellite-streets-v12',
     navigationDay: 'mapbox://styles/mapbox/navigation-day-v1',
     navigationNight: 'mapbox://styles/mapbox/navigation-night-v1',
-}
+};
 
 export const mapSettings = {
     initialViewState: {
@@ -15,4 +15,4 @@ export const mapSettings = {
         latitude: 35,
         zoom: 3,
     },
-}
+};

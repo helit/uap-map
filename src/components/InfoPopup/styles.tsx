@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
     position: absolute;
@@ -8,14 +8,14 @@ export const Wrapper = styled.div`
     hover: {
         cursor: default;
     }
-`
+`;
 
 export const ContentWrapper = styled.div`
     padding: 16px;
-`
+`;
 
-export const ContentHeader = styled.div``
+export const ContentHeader = styled.div``;
 
-export const ContentBody = styled.div``
+export const ContentBody = styled.div``;
 
-export const ContentFooter = styled.div``
+export const ContentFooter = styled.div``;

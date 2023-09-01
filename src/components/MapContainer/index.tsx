@@ -1,8 +1,8 @@
-import Map, { GeolocateControl } from 'react-map-gl'
-import { MapWrapper } from './styles'
-import { sightingData } from '../../data/sightingData'
-import { Sighting } from '../Sighting'
-import { mapSettings, mapStyles } from '../../data/mapData'
+import Map, { GeolocateControl } from 'react-map-gl';
+import { MapWrapper } from './styles';
+import { sightingData } from '../../data/sightingData';
+import { Sighting } from '../Sighting';
+import { mapSettings, mapStyles } from '../../data/mapData';
 
 export const MapContainer = () => {
     return (
@@ -22,7 +22,7 @@ export const MapContainer = () => {
                 ))}
             </Map>
         </MapWrapper>
-    )
-}
+    );
+};
 
-export default MapContainer
+export default MapContainer;

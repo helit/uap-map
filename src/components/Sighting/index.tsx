@@ -1,13 +1,13 @@
-import { Marker as MapboxMarker } from 'react-map-gl'
-import { SightingInfoType } from '../../types/sightingInfo'
-import { Pin } from '../Pin'
+import { Marker as MapboxMarker } from 'react-map-gl';
+import { SightingInfoType } from '../../types/sightingInfo';
+import { Pin } from '../Pin';
 
 type SightingProps = {
-    sighting: SightingInfoType
-}
+    sighting: SightingInfoType;
+};
 
 export const Sighting = ({ sighting }: SightingProps) => {
-    const coordinates = sighting.location.coordinates?.split(',')
+    const coordinates = sighting.location.coordinates?.split(',');
 
     return (
         <MapboxMarker
@@ -17,5 +17,5 @@ export const Sighting = ({ sighting }: SightingProps) => {
         >
             <Pin sighting={sighting} />
         </MapboxMarker>
-    )
-}
+    );
+};
