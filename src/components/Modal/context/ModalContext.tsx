@@ -1,20 +1,54 @@
-import { createContext, useCallback, useEffect, useState } from 'react'
-import { Modal } from '..'
+// ModalContext.tsx
+import { createContext, useContext, useState, ReactNode } from 'react';
 
-export const ModalProvider = (props: any) => {
-    const [modal, setModal] = useState<any>()
-    const unSetModal = useCallback(() => {
-        setModal(undefined)
-    }, [setModal])
-
-    return (
-        <ModalContext.Provider value={{ unSetModal, setModal }} {...props}>
-            {props.children}
-            {modal && <Modal modal={modal} unSetModal={unSetModal} />}
-        </ModalContext.Provider>
-    )
+interface ModalContextProps {
+    isModalOpen: boolean;
+    showModal: (content: ReactNode) => void;
+    hideModal: () => void;
+    modalContent: ReactNode | null;
 }
 
-export const ModalContext = createContext({
-    setModal: (modal: any) => {},
-})
+export const ModalContext = createContext<ModalContextProps | undefined>(
+    undefined
+);
+
+export const useModal = () => {
+    const context = useContext(ModalContext);
+    if (!context) {
+        throw new Error('useModal must be used within a ModalProvider');
+    }
+    return context;
+};
+
+type ModalProviderProps = {
+    children: ReactNode;
+};
+
+export const ModalProvider = ({ children }: ModalProviderProps) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [modalContent, setModalContent] = useState<ReactNode | null>(null);
+
+    const showModal = (content: ReactNode) => {
+        setModalContent(content);
+        setIsModalOpen(true);
+    };
+
+    const hideModal = () => {
+        setModalContent(null);
+        setIsModalOpen(false);
+    };
+
+    return (
+        <ModalContext.Provider
+            value={{ isModalOpen, showModal, hideModal, modalContent }}
+        >
+            {children}
+            {isModalOpen && modalContent && (
+                <div className="modal">
+                    {modalContent}
+                    <button onClick={hideModal}>Close Modal</button>
+                </div>
+            )}
+        </ModalContext.Provider>
+    );
+};

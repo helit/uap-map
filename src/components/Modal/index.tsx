@@ -1,15 +1,22 @@
-import { Paper } from '@mui/material'
-import { ModalWrapper } from './styles'
-import { useEffect } from 'react'
+import { useModal } from './context/ModalContext';
 
-export const Modal = ({ modal, unSetModal }: any) => {
-    useEffect(() => {
-        console.log('modal', modal)
-    }, [modal, unSetModal])
+export const Modal = () => {
+    const { isModalOpen, hideModal, modalContent } = useModal();
 
     return (
-        <ModalWrapper>
-            <Paper sx={{ width: '500px', height: '500px' }}>{modal}</Paper>
-        </ModalWrapper>
-    )
-}
+        <>
+            {isModalOpen && (
+                <div className="modal-overlay" onClick={hideModal}>
+                    <div
+                        className="modal-content"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        {modalContent}
+                    </div>
+                </div>
+            )}
+        </>
+    );
+};
+
+export default Modal;
