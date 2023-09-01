@@ -31,6 +31,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'A broadsheet published in 1566 depicted numerous spherical objects appearing out of the sun. The event was recorded and depicted by Samuel Coccius, "a student of the Holy Scripture and of the free arts, at Basel".',
+        url: 'https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/8/86/LinkSeltsame_Gestalt_so_in_disem_MDLXVI_Jar.jpg',
     },
     {
         id: '3',
@@ -209,10 +211,12 @@ export const sightingData: SightingInfoType[] = [
         type: 'Undefined report',
         location: {
             name: 'United States; Puget Sound near Maury Island, Washington',
-            coordinates: '47.6, -122.4',
+            coordinates: '47.376944, -122.429722',
         },
         description:
             'Fred Crisman mailed an account from employee Harold A. Dahl, along with a cigar box of metal wreckage, to Raymond A. Palmer who had previously published the Shaver Mystery stories. Dahl claimed that his dog was killed and his son was injured by debris in an encounter with six flying doughnut-shaped objects. He also reported that he was subsequently threatened by Men in Black. On July 31, 1947, Palmer arranged a meeting between Crisman, Dahl, Air Force investigators, and flying saucer witnesses Kenneth Arnold & Emil Smith.',
+        url: 'https://en.wikipedia.org/wiki/Maury_Island_incident',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Artist_impression_of_the_Maury_Island_UFO_hoax.jpg/440px-Artist_impression_of_the_Maury_Island_UFO_hoax.jpg',
     },
     {
         id: '18',

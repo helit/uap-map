@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { Paper } from '@mui/material';
+import { breakpoints } from '../../theme';
 
 export const ModalOverlay = styled.div`
     position: absolute;
@@ -7,7 +8,8 @@ export const ModalOverlay = styled.div`
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
 `;
 
 export const ModalWrapper = styled.div`
@@ -26,12 +28,19 @@ export const ModalContent = styled(Paper)`
     width: 1024px;
     min-height: 600px;
     max-height: 800px;
+
+    @media (max-width: ${breakpoints.medium}) {
+        height: 100%;
+        width: 100%;
+        min-height: unset;
+        max-width: unset;
+    }
 `;
 
 export const ModalHeader = styled.div`
     display: flex;
     justify-content: flex-end;
-    padding: 16px 16px 0;
+    padding: 4px 4px 0;
 `;
 
 export const ModalBody = styled.div`
@@ -39,6 +48,10 @@ export const ModalBody = styled.div`
     text-align: left;
     padding: 0 42px 24px;
     overflow-y: auto;
+
+    @media (max-width: ${breakpoints.medium}) {
+        padding: 0 16px 24px;
+    }
 `;
 
 export const ModalActions = styled.div`
