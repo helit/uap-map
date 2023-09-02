@@ -18,6 +18,7 @@ import {
 } from '@mui/icons-material';
 import { useModal } from '../Modal/context/ModalContext';
 import { Divider, Link, Typography } from '@mui/material';
+import { LightTooltip } from '../Tooltip';
 
 type MapMarkerProps = {
     sighting: SightingInfoType;
@@ -122,5 +123,9 @@ export const MapMarker = ({ sighting }: MapMarkerProps) => {
         }
     };
 
-    return <Marker onClick={openModal}>{getIcon()}</Marker>;
+    return (
+        <LightTooltip title={sighting.name} placement="top">
+            <Marker onClick={openModal}>{getIcon()}</Marker>
+        </LightTooltip>
+    );
 };
