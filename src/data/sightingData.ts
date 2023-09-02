@@ -692,7 +692,7 @@ export const sightingData: SightingInfoType[] = [
         id: '57',
         date: '1974-1-23',
         name: 'Berwyn Mountain UFO incident',
-        type: 'Undefined report',
+        type: 'Crash',
         location: {
             name: 'United Kingdom; Llandrillo, Merionethshire, North Wales',
             coordinates: '52.922, -3.436',
@@ -1015,6 +1015,8 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             "United Airlines employees and pilots reported sightings of a saucer-shaped, unlit craft hovering over a Chicago O'Hare Airport terminal, before appearing to leave with a rapid vertical rise.",
+        url: 'https://en.wikipedia.org/wiki/2006_O%27Hare_International_Airport_UFO_sighting',
+        image: 'https://i0.wp.com/doyletatum.com/wp-content/uploads/2023/04/Chicago-OHare-UFO-Sighting-1-jpg.jpg',
     },
     {
         id: '84',

@@ -1,8 +1,6 @@
 # UFO/UAP Report & Sighting map
 
-![](https://upload.wikimedia.org/wikipedia/en/f/ff/George_Adamski_ship_1.jpg)
-
-Image credit: [George Adamski](https://en.wikipedia.org/wiki/George_Adamski)
+![](https://www.8newsnow.com/wp-content/uploads/sites/59/2018/05/UFO_GIMBAL_700_1525482626869_41689768_ver1.0-1.jpg)
 
 ## What is this?
 
