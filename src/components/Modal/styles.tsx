@@ -26,14 +26,14 @@ export const ModalContent = styled(Paper)`
     display: flex;
     flex-direction: column;
     width: 1024px;
-    min-height: 600px;
-    max-height: 800px;
+    min-height: 700px;
+    max-height: 700px;
 
-    @media (max-width: ${breakpoints.medium}) {
+    @media (max-width: ${breakpoints.large}) {
         height: 100%;
         width: 100%;
         min-height: unset;
-        max-width: unset;
+        max-height: unset;
     }
 `;
 
