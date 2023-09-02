@@ -1,5 +1,12 @@
 import { SightingInfoType } from '../../types/sightingInfo';
-import { BodyWrapper, Footer, Inline, Marker, StyledImage } from './styles';
+import {
+    BodyWrapper,
+    Footer,
+    Inline,
+    Marker,
+    MediaWrapper,
+    StyledImage,
+} from './styles';
 import {
     CrisisAlert,
     PersonRemove,
@@ -47,12 +54,22 @@ export const MapMarker = ({ sighting }: MapMarkerProps) => {
                         {sighting.description}
                     </Typography>
                     {sighting.image && (
-                        <StyledImage src={sighting.image} alt={sighting.name} />
+                        <MediaWrapper>
+                            <StyledImage
+                                src={sighting.image}
+                                alt={sighting.name}
+                            />
+                        </MediaWrapper>
                     )}
                     {sighting.video && (
-                        <video controls width="600">
-                            <source src={sighting.video} type="video/webm" />
-                        </video>
+                        <MediaWrapper>
+                            <video controls width="100%">
+                                <source
+                                    src={sighting.video}
+                                    type="video/webm"
+                                />
+                            </video>
+                        </MediaWrapper>
                     )}
                     <Footer>
                         <Inline>

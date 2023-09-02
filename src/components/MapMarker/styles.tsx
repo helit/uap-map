@@ -15,9 +15,11 @@ export const BodyWrapper = styled.div`
     max-width: 700px;
 `;
 
+export const MediaWrapper = styled.div``;
+
 export const StyledImage = styled.img`
-    object-fit: contain;
-    height: 400px;
+    max-height: 400px;
+    width: 100%;
 `;
 
 export const Footer = styled.div`
