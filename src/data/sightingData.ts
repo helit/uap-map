@@ -1266,4 +1266,22 @@ export const sightingData: SightingInfoType[] = [
             },
         ],
     },
+    {
+        id: '100',
+        date: '2021-9-27',
+        name: 'Voronezh UFO incident',
+        type: 'Sighting',
+        location: {
+            name: 'Russia; Voronezh',
+            coordinates: '51.668037, 39.200773',
+        },
+        description:
+            'According to TASS, boys playing football in a city park "saw a pink glow in the sky, then saw a deep red ball about three metres in diameter. The ball circled, vanished, then reappeared minutes later and hovered". The children claimed to have seen "a three-eyed alien" wearing bronze coloured boots with a disk on the chest, and a robot, exiting the object. According to the children, the alien used a ray gun to make a 16-year-old boy disappear until the object departed.',
+        sources: [
+            {
+                title: 'Voronezh UFO incident',
+                url: 'https://en.wikipedia.org/wiki/Voronezh_UFO_incident',
+            },
+        ],
+    },
 ];
