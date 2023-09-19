@@ -25,7 +25,7 @@ export const StyledImage = styled.img`
 export const Footer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 8px;
 `;
 
 export const Inline = styled.div`

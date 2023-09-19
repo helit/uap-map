@@ -18,7 +18,12 @@ export const sightingData: SightingInfoType[] = [
     considered a likely fraud by Edward Condon.[7] The alleged translation
     of the papyrus—published in issue 41 of the Fortean Society's magazine
     Doubt—included such Fortean phenomena as "circles of fire" and fish that "fell down from the sky".`,
-        url: 'https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings',
+        sources: [
+            {
+                title: 'List of reported UFO sightings',
+                url: 'https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings',
+            },
+        ],
     },
     {
         id: '2',
@@ -31,7 +36,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'A broadsheet published in 1566 depicted numerous spherical objects appearing out of the sun. The event was recorded and depicted by Samuel Coccius, "a student of the Holy Scripture and of the free arts, at Basel".',
-        url: 'https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel',
+        sources: [
+            {
+                title: '1566 celestial phenomenon over Basel',
+                url: 'https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel',
+            },
+        ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/8/86/LinkSeltsame_Gestalt_so_in_disem_MDLXVI_Jar.jpg',
     },
     {
@@ -189,7 +199,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Thousands of UFO sightings were reported over Europe. Due in part to concerns that foreign governments were testing recovered experimental German technology, the Swedish and Greek governments investigated the reports separately.',
-        url: 'https://en.wikipedia.org/wiki/Ghost_rockets',
+        sources: [
+            {
+                title: 'Ghost rockets',
+                url: 'https://en.wikipedia.org/wiki/Ghost_rockets',
+            },
+        ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Ghostrocket_7-09-1946.jpg',
     },
     {
@@ -215,7 +230,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Fred Crisman mailed an account from employee Harold A. Dahl, along with a cigar box of metal wreckage, to Raymond A. Palmer who had previously published the Shaver Mystery stories. Dahl claimed that his dog was killed and his son was injured by debris in an encounter with six flying doughnut-shaped objects. He also reported that he was subsequently threatened by Men in Black. On July 31, 1947, Palmer arranged a meeting between Crisman, Dahl, Air Force investigators, and flying saucer witnesses Kenneth Arnold & Emil Smith.',
-        url: 'https://en.wikipedia.org/wiki/Maury_Island_incident',
+        sources: [
+            {
+                title: 'Maury Island incident',
+                url: 'https://en.wikipedia.org/wiki/Maury_Island_incident',
+            },
+        ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Artist_impression_of_the_Maury_Island_UFO_hoax.jpg/440px-Artist_impression_of_the_Maury_Island_UFO_hoax.jpg',
     },
     {
@@ -265,7 +285,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Walter Haut, a United States Army Air Forces spokesperson, issued a press release announcing the "capture" of a "flying saucer".  Hours later, the Army announced that the find was a crashed weather balloon.  In 1978, the case regained attention after Jesse Marcel, the Army Officer who recovered the wreckage, told UFO researchers that the weather balloon explanation was a cover story. In 1994, the Air Force attributed the incident to the previously classified Project Mogul.',
-        url: 'https://en.wikipedia.org/wiki/Roswell_incident',
+        sources: [
+            {
+                title: 'Roswell incident',
+                url: 'https://en.wikipedia.org/wiki/Roswell_incident',
+            },
+        ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/RoswellDailyRecordJuly8%2C1947.jpg',
     },
     {
@@ -819,7 +844,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'United States Air Force personnel reported various unusual observations at RAF Woodbridge and RAF Bentwaters, two American air bases located in England. Their reports included lights in the sky, a metallic triangular object in the forest, multi-colored lights moving through the forest, and higher levels of radiation.',
-        url: 'https://en.wikipedia.org/wiki/Rendlesham_Forest_incident',
+        sources: [
+            {
+                title: 'Rendlesham Forest incident',
+                url: 'https://en.wikipedia.org/wiki/Rendlesham_Forest_incident',
+            },
+        ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RAF_Woodbridge_East_Gate.jpg/480px-RAF_Woodbridge_East_Gate.jpg',
     },
     {
@@ -989,7 +1019,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Several pilots from VFA-41 squadron flying Super Hornets from the USS Nimitz, were directed by the USS Princeton to intercept one of several unidentified flying objects detected by radar. The pilots reported a visual encounter and recorded an infrared video. The Navy has verified that the video was taken by Navy personnel and has stated that it has not yet identified the nature of the sightings which they classify as unexplained aerial phenomena.',
-        url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+        sources: [
+            {
+                title: 'USS Theodore Roosevelt UFO incidents',
+                url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+            },
+        ],
         video: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Go_Fast_Official_USG_Footage_of_UAP_for_Public_Release.webm',
     },
     {
@@ -1015,7 +1050,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             "United Airlines employees and pilots reported sightings of a saucer-shaped, unlit craft hovering over a Chicago O'Hare Airport terminal, before appearing to leave with a rapid vertical rise.",
-        url: 'https://en.wikipedia.org/wiki/2006_O%27Hare_International_Airport_UFO_sighting',
+        sources: [
+            {
+                title: `2006 O'Hare International Airport UFO sighting`,
+                url: 'https://en.wikipedia.org/wiki/2006_O%27Hare_International_Airport_UFO_sighting',
+            },
+        ],
         image: 'https://i0.wp.com/doyletatum.com/wp-content/uploads/2023/04/Chicago-OHare-UFO-Sighting-1-jpg.jpg',
     },
     {
@@ -1101,7 +1141,12 @@ export const sightingData: SightingInfoType[] = [
         },
         description:
             'Navy pilots from the Theodore Roosevelt began to notice unexplained objects on their radar after an equipment upgrade. Some pilots were unable to see the objects. Others captured video footage, later released to the public. The pilots reported these incidents to the then-obscure Advanced Aerospace Threat Identification Program resulting in new guidelines regarding unexplained aerial phenomena sightings.',
-        url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+        sources: [
+            {
+                title: 'USS Theodore Roosevelt UFO incidents',
+                url: 'https://en.wikipedia.org/wiki/USS_Theodore_Roosevelt_UFO_incidents',
+            },
+        ],
         video: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Gimbal_The_First_Official_UAP_Footage_from_the_USG_for_Public_Release.webm',
     },
     {
@@ -1181,5 +1226,44 @@ export const sightingData: SightingInfoType[] = [
             coordinates: '53.323889, -7.991111',
         },
         description: `Several sets of Irish annals, those of Ulster, Tigernach, Clonmacnoise, and the Four Masters, all have entries to the effect that "ships with their crews were seen in the air".`,
+    },
+    {
+        id: '98',
+        date: '1957-9-13',
+        name: 'Ubatuba UFO explosion',
+        type: 'Crash',
+        location: {
+            name: 'Brazil; Ubatuba, São Paulo',
+            coordinates: '-23.436956, -45.042956',
+        },
+        description:
+            'On 13 September 1957 The journalist Ibrahim Sued received an envelope containing a letter and three fragments of metal. The author of the letter wrote that he saw a UFO which exploded in the sky over the beach of Ubatuba; he collected some fragments and sent three of these to the journal together with the letter. Sued sent the fragments to a laboratory which analyzed them and discovered that they consisted of pure magnesium.[4] James Harder and other ufologists came to the conclusion that the fragments of Ubatuba have an extraterrestrial origin, but other investigators think that this story is a hoax. American immunologist and inventor Garry P. Nolan at Stanford University claim to have pieces of the crashed UFO.',
+        sources: [
+            {
+                title: 'UFO sightings in Brazil',
+                url: 'https://en.wikipedia.org/wiki/UFO_sightings_in_Brazil',
+            },
+            {
+                title: 'Lex Friedman Podcast #262',
+                url: 'https://www.youtube.com/watch?v=uTCc2-1tbBQ',
+            },
+        ],
+    },
+    {
+        id: '99',
+        date: `1930's forward`,
+        name: 'Hessdalen lights',
+        type: 'Sighting',
+        location: {
+            name: 'Norway; Hessdalen, Trøndelag',
+            coordinates: '62.7804726, 10.9900947',
+        },
+        description: `The Hessdalen lights are of unknown origin. They appear both by day and by night, and seem to float through and above the valley. They are usually bright white, yellow or red and can appear above and below the horizon. The duration of the phenomenon may be a few seconds to well over an hour. Sometimes the lights move with enormous speed; at other times they seem to sway slowly back and forth. On yet other occasions, they hover in mid‑air. Unusual lights have been reported in the region since at least the 1930s. Especially high activity occurred between December 1981 and mid-1984, during which the lights were observed 15–20 times per week, attracting many overnight tourists. As of 2010, the number of observations had dwindled, with only 10 to 20 sightings yearly.`,
+        sources: [
+            {
+                title: 'Hessdalen lights',
+                url: 'https://en.wikipedia.org/wiki/Hessdalen_lights',
+            },
+        ],
     },
 ];

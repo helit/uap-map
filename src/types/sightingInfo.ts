@@ -5,7 +5,7 @@ export type SightingInfoType = {
     type: string;
     location: SightingLocationType;
     description: string;
-    url?: string;
+    sources?: SourcesType[];
     image?: string;
     video?: string;
 };
@@ -13,4 +13,9 @@ export type SightingInfoType = {
 export type SightingLocationType = {
     name: string;
     coordinates: string;
+};
+
+export type SourcesType = {
+    title: string;
+    url: string;
 };

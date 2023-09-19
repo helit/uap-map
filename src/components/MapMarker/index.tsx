@@ -75,29 +75,20 @@ export const MapMarker = ({ sighting }: MapMarkerProps) => {
                     <Footer>
                         <Inline>
                             <Typography variant="subtitle1" fontWeight={'bold'}>
-                                Source:
+                                Sources:
                             </Typography>
-                            <Link
-                                href={
-                                    'https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings'
-                                }
-                                target="_blank"
-                                rel="noreferrer"
-                                variant="subtitle1"
-                            >
-                                Wikipedia - List of reported UFO sightings
-                            </Link>
                         </Inline>
-                        {sighting.url && (
-                            <Link
-                                href={sighting.url}
-                                target="_blank"
-                                rel="noreferrer"
-                                variant="subtitle1"
-                            >
-                                Read more
-                            </Link>
-                        )}
+                        {sighting.sources &&
+                            sighting.sources.map((source) => (
+                                <Link
+                                    href={source.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    variant="subtitle1"
+                                >
+                                    {source.title}
+                                </Link>
+                            ))}
                     </Footer>
                 </BodyWrapper>
             </div>
