@@ -281,7 +281,7 @@ export const sightingData: SightingInfoType[] = [
         type: 'Crash',
         location: {
             name: 'United States; about 30 mi. north of Roswell, New Mexico',
-            coordinates: '33.387222, -104.528056',
+            coordinates: '33.949959, -105.314529',
         },
         description:
             'Walter Haut, a United States Army Air Forces spokesperson, issued a press release announcing the "capture" of a "flying saucer".  Hours later, the Army announced that the find was a crashed weather balloon.  In 1978, the case regained attention after Jesse Marcel, the Army Officer who recovered the wreckage, told UFO researchers that the weather balloon explanation was a cover story. In 1994, the Air Force attributed the incident to the previously classified Project Mogul.',
